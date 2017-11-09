@@ -2,29 +2,12 @@ asciidoc:
   ext: adoc
 asciidoctor:
   attributes:
-  - data-uri
-  - icons=font
-  - idprefix=
-  - imagesdir=.
-  - linkcss
-  - pygments-css=class
-  - sectlinks
-  - showtitle
-  - source-highlighter=pygments
-  - stem
-  - stylesdir=css
-  - toclevels=3
-  base_dir: :docdir
-  safe: 0
+    - showtitle
 collections:
   pages:
     output: true
     permalink: /:path
 exclude:
-- Gemfile
-- Gemfile.lock
-- Makefile
-- README.md
-- vendor
+  - Gemfile
 titles_from_headings:
   collections: true
